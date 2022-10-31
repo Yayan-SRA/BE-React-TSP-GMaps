@@ -15,6 +15,7 @@ apiRouter.delete(
   "/api/v1/algen/delete/:id",
   controllers.api.v1.algenController.destroy
 );
+router.get('/', controllers.api.v1.algenController.handleGetRoot)
 
 /**
  * TODO: Delete this, this is just a demonstration of
