@@ -8,7 +8,7 @@ const app = express();
 app.use(morgan("dev"));
 
 app.use(cors({credentials:true, origin: 
-    "https://be-react-gmaps.herokuapp.com",
+    "https://fe-react-tsp-gmaps.vercel.app",
 methods: ["GET", "POST","DELETE","PUT"]}))
 
 /** Install JSON request parser */
