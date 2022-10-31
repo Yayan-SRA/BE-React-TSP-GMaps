@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node -r dotenv/config bin/www",
-    "develop": "nodemon -q bin/www",
+    "develop": "nodemon -q dotenv/config bin/www",
     "db:create": "./node_modules/.bin/sequelize-cli db:create",
     "db:drop": "./node_modules/.bin/sequelize-cli db:drop",
     "db:migrate": "./node_modules/.bin/sequelize-cli db:migrate",
