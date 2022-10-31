@@ -1,0 +1,26 @@
+###
+POST http://localhost:8000/api/v1/algen/create
+Content-Type: application/json
+
+{
+    "name":"sofyan",
+    "address":"gg kantil",
+    "lat":"-3.45411414",
+    "lng": "21.767635228",
+    "startingPoint": false
+}
+
+###
+GET http://localhost:8000/api/v1/algen/list
+
+###
+PUT http://localhost:8000/api/v1/algen/update/1
+Content-Type: application/json
+
+{
+    "address":"gg kantil",
+    "lng": "21.767635228"
+}
+
+###
+DELETE http://localhost:8000/api/v1/algen/delete/2
