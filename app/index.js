@@ -8,7 +8,7 @@ const app = express();
 app.use(morgan("dev"));
 
 app.use(cors({credentials:true, origin: 
-    "http://localhost:3000",
+    "https://be-react-gmaps.herokuapp.com",
 methods: ["GET", "POST","DELETE","PUT"]}))
 
 /** Install JSON request parser */
